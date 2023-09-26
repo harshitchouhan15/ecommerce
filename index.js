@@ -1,6 +1,7 @@
 const express=require('express')
 const mongoose=require('mongoose')
 const dotenv=require('dotenv')
+const path = require('path')
 const orderRoute=require('./routes/order')
 const cartRoute=require('./routes/cart')
 const productRoute=require('./routes/product')
