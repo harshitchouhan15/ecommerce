@@ -97,7 +97,7 @@ const Footer = () => {
   return (
    <Container>
     <Left>
-        <h1>Snaplyt</h1>
+        <h1>Snaptly</h1>
         <p>Lorem ipsum dolor sit amet, consectetur
              ratione nulla, minima unde ex rem eos necessitatibus sit iste provident, officiis quia deleniti eius illum!
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis itaque non recusandae.

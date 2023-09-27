@@ -107,8 +107,9 @@ const Right=styled.div`
     @media screen and (max-width:768px){
      width: 100%;
      padding-top: 10px;
-    
+    gap: 15px;
      box-shadow: none;
+     background-color: #ebe9e9;
     }
     &>:nth-child(5){
         font-weight: 500;
@@ -118,6 +119,7 @@ const Right=styled.div`
     }
     &>h1{
         font-weight: 400;
+        text-align: center;
     }
     &>div{
         display: flex;
@@ -247,7 +249,7 @@ useEffect(()=>{
 <div><span>Total</span><span>Rs {total-40}</span></div>
 
 <StripeCheckout  
-name = "Snaplyt"
+name = "Snaptly"
 shippingAddress
 billingAddress
 description={`your total is Rs ${total-40}`}

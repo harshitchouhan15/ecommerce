@@ -82,9 +82,7 @@ const Section=styled.div`
 color:crimson
             }; 
             @media screen and (max-width:768px){
-     padding: 15px;
-     margin-top: 200px;
-     opacity: 1;
+     display: none;
     }
         }
 `
@@ -101,10 +99,9 @@ const Categories = () => {
         <h1>Shop by category</h1>
         <Box>
         {data.map(item=>(
-       <Link style={{textDecoration:'none'}} to={`/products/${item.title}`}>    <Section>
-              
-                   
-                    <button>SHOP NOW</button>
+       <Link style={{textDecoration:'none'}} to={`/products/${item.title}`}> 
+          <Section>
+                  <button>SHOP NOW</button>
                
                 <Image src={item.src}/>
                

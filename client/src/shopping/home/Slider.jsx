@@ -22,7 +22,7 @@ const Container=styled.div`
     }
     @media screen and (max-width:768px){
       height: 40vh;
-      margin-top: 60px;
+      margin-top: 56px;
     }
 `
 const Slide=styled.div`
@@ -62,9 +62,9 @@ const Arrow=styled.span`
     left: ${props => props.left};
     right: ${props => props.right};
     @media screen and (max-width:768px){
-      height: 40px;
-      width: 40px;
-      
+      height: 35px;
+      width: 35px;
+      opacity: 1;
     }
 `
 const Slider = () => {

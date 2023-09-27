@@ -15,7 +15,7 @@ import ListIcon from '@mui/icons-material/List';
 const Container=styled.div`
   display: flex;
   align-items: center;
-  background-color: #eeebeb;
+  background-color: #f2eeee;
   padding:  0 15px;
   position: fixed;
  color: crimson;
@@ -23,8 +23,8 @@ const Container=styled.div`
   z-index: 999;
   width: 100vw;
   @media screen and (max-width:768px){
-    height: 60px;
-    padding: 15px 5px;
+    height: 56px;
+    padding: 12px 5px;
   }
 `
 const StyledLink=styled(Link)`
@@ -105,7 +105,7 @@ const Navbar = () => {
     <Container>
        <ToggleButton onClick={()=>setSlide(true)} > <ListIcon fontSize="large" htmlColor="crimson"/> </ToggleButton>
     <Left>
-<HomeLink  to='/'>Snaplyt</HomeLink>
+<HomeLink  to='/'>Snaptly</HomeLink>
  </Left>
 
     
@@ -154,7 +154,7 @@ const MenuContainer=styled.div`
   display: flex;
   flex-direction: column;
   outline: none;
-  gap: 30px;
+  gap: 20px;
   
   padding: 25px 0;
   position: fixed;
@@ -174,8 +174,8 @@ const Top=styled.div`
   display: flex;
   align-items: center;
   gap: 30px;
-  font-size: 20px;
-  margin-block:20px 40px;
+  font-size: 18px;
+  margin-block:18px 30px;
 
 `
 
@@ -183,10 +183,10 @@ const Links=styled(Link)`
  
   text-decoration: none;
 color: #3f3f41;
-  padding-bottom: 10px;
+  padding-bottom: 7px;
   border-bottom: 0.5px solid #cfcfcf;
-font-size: 22px;
-font-weight: 500;
+font-size: 16px;
+font-weight: 400;
 `
 
 const Signin=styled(Link)`
@@ -203,9 +203,9 @@ const Button=styled.button`
   font-weight: 500;
   background-color: crimson;
   border-radius: 5px;
-margin-top: 50px;
+margin-top: 45px;
 align-self: center;
-  font-size: 22px;
+  font-size: 20px;
 `
 
 const Menu=({slide})=>{

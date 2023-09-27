@@ -27,6 +27,7 @@ const Container=styled.div`
     letter-spacing: 2px;
     font-weight: 500;
     margin-bottom: 20px;
+    text-align: center;
     @media screen and (max-width:520px){
       letter-spacing: 0.2px;
       font-size: 18px;

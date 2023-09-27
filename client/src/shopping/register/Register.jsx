@@ -126,7 +126,7 @@ dispatch(loginSuccess(res.data.userData))
   return (
     <Container>
      <Top> 
-     <StyledLink head={true} to='/'> Snaplyt</StyledLink> 
+     <StyledLink head={true} to='/'> Snaptly</StyledLink> 
     <StyledLink  to='/login'>Login</StyledLink>  </Top> 
        
        
