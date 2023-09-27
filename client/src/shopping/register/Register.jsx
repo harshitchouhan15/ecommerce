@@ -110,14 +110,14 @@ const Register = () => {
 
     try{
 
-  const res= axiosInstance.post("/auth/signup",details)
+  const res=await axiosInstance.post("/auth/signup",details)
 
 dispatch(loginSuccess(res.data.userData))
 
     }catch(err){
         dispatch(loginFailure())
         setError(true)
-        console.log('')
+        console.log(err)
     }
    
 }
